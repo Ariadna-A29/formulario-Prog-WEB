@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333230;
+  background-color: #bdbdbd;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+header {
+  background-color: #499b1a;
+  color: white;
+  padding: 20px 32px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color:#e8f5e9;
+    margin: 0;
+}
+
+form {
+  max-width: 620px;
+  margin: auto;
+  padding: 32px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+section h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-bottom: 2px solid #40e92a;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #333;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #ace058;
+  box-shadow: 0 0 0 3px rgba(46, 214, 40, 0.329);
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  border:1px solid #ccc;
+  border-radius:6px;
+  border-color: #ace058;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(46, 214, 40, 0.329);
+}
+
+select {
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.opcion-radio,
+.opcion-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #499b1a;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.opcion-radio{
+    display:flex;
+}
+
+.opcion-checkbox{
+    display:flex;
+}
+
+button[type="submit"]:hover {
+  background-color: #80ca1e;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.85rem;
+  color: #888;
+}
